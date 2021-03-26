@@ -53,6 +53,19 @@
   color: #6666FF;
 }
 
+#menu a {
+	color: inherit;
+	display: inline-block;
+	padding: 0 0.75rem;
+	text-decoration: none;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+#menu a:hover {
+  color: #6666FF;
+}
+
 body {
 	padding-top: 3.25rem;
 }
@@ -103,4 +116,31 @@ body:before {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.menu-link {
+  display: none;
+  margin-right: 20px;
+  width: 40px;
+}
+
+.menu-link > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burguer-menu {
+    width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+	.menu-link {
+		display: block;
+        justify-content: center;
+        align-items: center;
+	}
+	.links {
+    display: none;
+  }
 }
