@@ -134,6 +134,11 @@ body:before {
     width: 100%;
 }
 
+.about-us {
+  width: 70%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 736px) {
 	.menu-link {
 		display: block;
